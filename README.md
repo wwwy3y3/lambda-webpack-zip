@@ -1,5 +1,8 @@
 ## lambda-webpack-zip
-build for aws-lambda, webpack your entry, then zip it
+[![npm Version](https://img.shields.io/npm/v/lambda-webpack-zip.svg?style=flat-square)](https://www.npmjs.org/package/lambda-webpack-zip)
+[![Build Status](https://travis-ci.org/Canner/lambda-webpack-zip.svg?branch=master)](https://travis-ci.org/Canner/lambda-webpack-zip)
+
+Build for aws-lambda, webpack your entry, then zip it
 
 ## Install
 ``` sh
@@ -9,7 +12,8 @@ yarn add lambda-webpack-zip
 
 ## Features
 * customized webpack configs
-* create tmp file for webpack built code and zip code, ensure them to be deleted after process exit
+* create tmp file for webpack built code and zip file, ensure them to be deleted after process exit
+* Typescript support
 
 ### Usage
 ``` js
