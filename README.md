@@ -1,10 +1,19 @@
 ## lambda-webpack-zip
-* webpack giving configs
-* create tmp for webpack output
-* zip tmp output and return with zip file path
+build for aws-lambda, webpack your entry, then zip it
 
-### usage
+## Install
+``` sh
+npm install lambda-webpack-zip
+yarn add lambda-webpack-zip
+```
+
+## Features
+* customized webpack configs
+* create tmp file for webpack built code and zip code, ensure them to be deleted after process exit
+
+### Usage
 ``` js
+const {pack} = require("lambda-webpack-zip");
 pack({
   // webpack configs
   entry: "/source/code/path",
@@ -13,4 +22,10 @@ pack({
     filename: "index.js"
   }
 })
+.then(zipFilePath => {
+  // upload zipFilePath
+});
 ```
+
+## Powered By Canner
+[Canner](https://www.canner.io/)
