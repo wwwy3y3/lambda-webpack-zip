@@ -1,4 +1,6 @@
 ## lambda-webpack-zip
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Canner/lambda-webpack-zip.svg)](https://greenkeeper.io/)
 [![npm Version](https://img.shields.io/npm/v/lambda-webpack-zip.svg?style=flat-square)](https://www.npmjs.org/package/lambda-webpack-zip)
 [![Build Status](https://travis-ci.org/Canner/lambda-webpack-zip.svg?branch=master)](https://travis-ci.org/Canner/lambda-webpack-zip)
 
